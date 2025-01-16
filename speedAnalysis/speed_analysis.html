@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>تحليل اختبار السرعة</title>
+</head>
+<body>
+  <h1>تحليل الكتابة السريعة</h1>
+
+    <label for="inputText">اكتب النص التالي:</label><br>
+    <textarea id="inputText"  cols="50" rows="5" readonly placeholder="استعد للكتابة..."></textarea><br>
+
+    <label for="userInput">كتابتك:</label><br>
+    <textarea id="userInput"  cols="50" rows="5" placeholder="ابدأ الكتابة عندما تكون جاهزًا"></textarea><br>
+    <button onclick="startTest()">ابدأ الاختبار</button>
+        <button onclick="endTest()" id="btn">انتهى الاختبار</button>
+    <div id="output"></div>
+    <script src="./speed_analysis.js"></script>
+</body>
+</html>
