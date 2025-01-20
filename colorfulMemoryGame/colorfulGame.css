@@ -1,0 +1,28 @@
+body {
+    background-color: blue;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+}
+
+.game-container div {
+    background-color: #DDD;
+    color: Black;
+    grid-template-columns: repeat(4, 100px);
+    padding: 20px;
+}
+
+div p {
+    color: white;
+}
+
+#startbtn {
+    background-color: white;
+    color: blue;
+}
